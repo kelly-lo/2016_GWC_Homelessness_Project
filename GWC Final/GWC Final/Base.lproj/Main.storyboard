@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="example_Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EKT-mo-sz8" userLabel="Background">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.13154074960000001" green="0.1875995838" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1tJ-Eb-UdB" userLabel="Second Card">
+                                <rect key="frame" x="164" y="44" width="120" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="ja6-Xd-y3T"/>
+                                    <constraint firstAttribute="height" constant="170" id="ll0-40-vwP"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySb-gD-7U8">
+                                <rect key="frame" x="224" y="20" width="31" height="30"/>
+                                <state key="normal" title="Deal"/>
+                                <connections>
+                                    <action selector="playRoundTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Ry-vN-D5U"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hUb-sy-6zC" userLabel="First Card">
+                                <rect key="frame" x="27" y="79" width="120" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="Sr3-bk-BBS"/>
+                                    <constraint firstAttribute="width" constant="120" id="ivo-hS-J8Q"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ySb-gD-7U8" secondAttribute="bottom" constant="50" id="2fA-Jq-vkv"/>
+                            <constraint firstAttribute="trailing" secondItem="1tJ-Eb-UdB" secondAttribute="trailing" constant="150" id="2qe-oX-5Tu"/>
+                            <constraint firstAttribute="bottom" secondItem="EKT-mo-sz8" secondAttribute="bottom" id="2yK-NS-sn2"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ySb-gD-7U8" secondAttribute="bottom" constant="200" id="6tA-3P-Xoa"/>
+                            <constraint firstItem="EKT-mo-sz8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Def-Ng-3eg"/>
+                            <constraint firstItem="ySb-gD-7U8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ebw-Ky-wyA"/>
+                            <constraint firstItem="hUb-sy-6zC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GsD-qv-AKa"/>
+                            <constraint firstItem="hUb-sy-6zC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HSi-dt-ym4"/>
+                            <constraint firstItem="1tJ-Eb-UdB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MYJ-mW-GUe"/>
+                            <constraint firstItem="hUb-sy-6zC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="OzF-6g-9aO"/>
+                            <constraint firstItem="EKT-mo-sz8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Qnr-W9-UXh"/>
+                            <constraint firstItem="hUb-sy-6zC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="150" id="Xh4-wZ-75I"/>
+                            <constraint firstAttribute="trailing" secondItem="1tJ-Eb-UdB" secondAttribute="trailing" constant="50" id="YcJ-y7-odv"/>
+                            <constraint firstItem="ySb-gD-7U8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ccx-qn-2xO"/>
+                            <constraint firstAttribute="trailing" secondItem="EKT-mo-sz8" secondAttribute="trailing" id="dsK-ew-TGU"/>
+                            <constraint firstItem="hUb-sy-6zC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sku-za-Aml"/>
+                            <constraint firstItem="1tJ-Eb-UdB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vB9-Vf-A5X"/>
+                            <constraint firstItem="hUb-sy-6zC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xsT-5C-0Gb"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2qe-oX-5Tu"/>
+                                <exclude reference="MYJ-mW-GUe"/>
+                                <exclude reference="YcJ-y7-odv"/>
+                                <exclude reference="vB9-Vf-A5X"/>
+                                <exclude reference="GsD-qv-AKa"/>
+                                <exclude reference="HSi-dt-ym4"/>
+                                <exclude reference="OzF-6g-9aO"/>
+                                <exclude reference="Xh4-wZ-75I"/>
+                                <exclude reference="sku-za-Aml"/>
+                                <exclude reference="xsT-5C-0Gb"/>
+                                <exclude reference="Ebw-Ky-wyA"/>
+                                <exclude reference="2fA-Jq-vkv"/>
+                                <exclude reference="6tA-3P-Xoa"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="2qe-oX-5Tu"/>
+                                <include reference="vB9-Vf-A5X"/>
+                                <include reference="GsD-qv-AKa"/>
+                                <include reference="Xh4-wZ-75I"/>
+                                <include reference="xsT-5C-0Gb"/>
+                                <include reference="Ebw-Ky-wyA"/>
+                                <include reference="2fA-Jq-vkv"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="MYJ-mW-GUe"/>
+                                <include reference="YcJ-y7-odv"/>
+                                <include reference="HSi-dt-ym4"/>
+                                <include reference="OzF-6g-9aO"/>
+                                <include reference="sku-za-Aml"/>
+                                <include reference="6tA-3P-Xoa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="EKT-mo-sz8" id="kEg-Tr-fhg"/>
+                        <outlet property="firstCardImageView" destination="hUb-sy-6zC" id="lW2-2N-PZD"/>
+                        <outlet property="playRoundButton" destination="ySb-gD-7U8" id="Bmm-xG-BWj"/>
+                        <outlet property="secondCardImageView" destination="1tJ-Eb-UdB" id="WgG-wD-rkS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
