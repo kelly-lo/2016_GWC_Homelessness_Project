@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D049887D1D4BBD810051F413 /* gameImages in Resources */ = {isa = PBXBuildFile; fileRef = D049887C1D4BBD810051F413 /* gameImages */; };
+		D049887F1D4BBEC40051F413 /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = D049887E1D4BBEC40051F413 /* burger.png */; };
+		D04988921D4BBEF60051F413 /* clothes-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D04988801D4BBEF60051F413 /* clothes-1.png */; };
+		D04988931D4BBEF60051F413 /* game title.png in Resources */ = {isa = PBXBuildFile; fileRef = D04988811D4BBEF60051F413 /* game title.png */; };
+		D04988941D4BBEF60051F413 /* GameButtons2.png in Resources */ = {isa = PBXBuildFile; fileRef = D04988821D4BBEF60051F413 /* GameButtons2.png */; };
+		D04988951D4BBEF60051F413 /* getfood-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D04988831D4BBEF60051F413 /* getfood-1.png */; };
+		D04988961D4BBEF60051F413 /* getmoney.png in Resources */ = {isa = PBXBuildFile; fileRef = D04988841D4BBEF60051F413 /* getmoney.png */; };
+		D04988971D4BBEF60051F413 /* goback.png in Resources */ = {isa = PBXBuildFile; fileRef = D04988851D4BBEF60051F413 /* goback.png */; };
+		D04988981D4BBEF60051F413 /* howto.png in Resources */ = {isa = PBXBuildFile; fileRef = D04988861D4BBEF60051F413 /* howto.png */; };
+		D04988991D4BBEF60051F413 /* mission.png in Resources */ = {isa = PBXBuildFile; fileRef = D04988871D4BBEF60051F413 /* mission.png */; };
+		D049889A1D4BBEF60051F413 /* officiallogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D04988881D4BBEF60051F413 /* officiallogo.png */; };
+		D049889B1D4BBEF60051F413 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = D04988891D4BBEF60051F413 /* pizza.png */; };
+		D049889C1D4BBEF60051F413 /* playnow.png in Resources */ = {isa = PBXBuildFile; fileRef = D049888A1D4BBEF60051F413 /* playnow.png */; };
+		D049889D1D4BBEF60051F413 /* Proposal-Homelessness.docx in Resources */ = {isa = PBXBuildFile; fileRef = D049888B1D4BBEF60051F413 /* Proposal-Homelessness.docx */; };
+		D049889E1D4BBEF60051F413 /* sadbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D049888C1D4BBEF60051F413 /* sadbackground.png */; };
+		D049889F1D4BBEF60051F413 /* sandwich.png in Resources */ = {isa = PBXBuildFile; fileRef = D049888D1D4BBEF60051F413 /* sandwich.png */; };
+		D04988A01D4BBEF60051F413 /* sausage.png in Resources */ = {isa = PBXBuildFile; fileRef = D049888E1D4BBEF60051F413 /* sausage.png */; };
+		D04988A11D4BBEF60051F413 /* shelf.png in Resources */ = {isa = PBXBuildFile; fileRef = D049888F1D4BBEF60051F413 /* shelf.png */; };
+		D04988A21D4BBEF60051F413 /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = D04988901D4BBEF60051F413 /* tag.png */; };
+		D04988A31D4BBEF60051F413 /* watermelon.png in Resources */ = {isa = PBXBuildFile; fileRef = D04988911D4BBEF60051F413 /* watermelon.png */; };
+		D04988A71D4BC9350051F413 /* men.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D04988A61D4BC9350051F413 /* men.atlas */; };
+		D04988A91D4BCB640051F413 /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04988A81D4BCB640051F413 /* RandomFunction.swift */; };
+		D04988AB1D4BD1C60051F413 /* moneygame_highDARKER.png in Resources */ = {isa = PBXBuildFile; fileRef = D04988AA1D4BD1C60051F413 /* moneygame_highDARKER.png */; };
 		D08B99B21D491FB4003A31C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08B99B11D491FB4003A31C2 /* AppDelegate.swift */; };
 		D08B99B41D491FB4003A31C2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D08B99B31D491FB4003A31C2 /* GameScene.sks */; };
 		D08B99B61D491FB4003A31C2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08B99B51D491FB4003A31C2 /* GameScene.swift */; };
@@ -16,27 +39,9 @@
 		D08B99C01D491FB4003A31C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08B99BE1D491FB4003A31C2 /* LaunchScreen.storyboard */; };
 		D08B99CB1D491FB4003A31C2 /* FinalGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08B99CA1D491FB4003A31C2 /* FinalGameTests.swift */; };
 		D08B99D61D491FB4003A31C2 /* FinalGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08B99D51D491FB4003A31C2 /* FinalGameUITests.swift */; };
-		D08B99E81D494CC2003A31C2 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B99E71D494CC2003A31C2 /* background.png */; };
-		D08B99EC1D4953DA003A31C2 /* playnow.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B99EA1D4953DA003A31C2 /* playnow.png */; };
-		D08B99EE1D49543C003A31C2 /* goback.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B99ED1D49543C003A31C2 /* goback.png */; };
 		D08B99F01D4957EB003A31C2 /* GWCfinalproject in Resources */ = {isa = PBXBuildFile; fileRef = D08B99EF1D4957EB003A31C2 /* GWCfinalproject */; };
-		D08B99F21D4958BA003A31C2 /* howto.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B99F11D4958BA003A31C2 /* howto.png */; };
 		D08B99F41D495904003A31C2 /* Desktop in Resources */ = {isa = PBXBuildFile; fileRef = D08B99F31D495904003A31C2 /* Desktop */; };
-		D08B99F61D496061003A31C2 /* pepe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D08B99F51D496061003A31C2 /* pepe.jpg */; };
-		D08B99FC1D496264003A31C2 /* getmoney.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B99F91D496264003A31C2 /* getmoney.png */; };
-		D08B99FF1D497250003A31C2 /* clothes-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B99FD1D497250003A31C2 /* clothes-1.png */; };
-		D08B9A001D497250003A31C2 /* getfood-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B99FE1D497250003A31C2 /* getfood-1.png */; };
-		D08B9A021D4A6F1D003A31C2 /* sadbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B9A011D4A6F1D003A31C2 /* sadbackground.png */; };
-		D08B9A041D4A756E003A31C2 /* shelf.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B9A031D4A756E003A31C2 /* shelf.png */; };
-		D08B9A0A1D4A7776003A31C2 /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B9A051D4A7776003A31C2 /* burger.png */; };
-		D08B9A0B1D4A7776003A31C2 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B9A061D4A7776003A31C2 /* pizza.png */; };
-		D08B9A0C1D4A7776003A31C2 /* sandwich.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B9A071D4A7776003A31C2 /* sandwich.png */; };
-		D08B9A0D1D4A7776003A31C2 /* sausage.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B9A081D4A7776003A31C2 /* sausage.png */; };
-		D08B9A0E1D4A7776003A31C2 /* watermelon.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B9A091D4A7776003A31C2 /* watermelon.png */; };
-		D08B9A111D4AA2BD003A31C2 /* game title.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B9A0F1D4AA2BD003A31C2 /* game title.png */; };
-		D08B9A121D4AA2BD003A31C2 /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B9A101D4AA2BD003A31C2 /* tag.png */; };
-		D08B9A141D4AAFBB003A31C2 /* officiallogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B9A131D4AAFBB003A31C2 /* officiallogo.png */; };
-		D08B9A161D4AB3A6003A31C2 /* mission.png in Resources */ = {isa = PBXBuildFile; fileRef = D08B9A151D4AB3A6003A31C2 /* mission.png */; };
+		D09692A91D4BEF6000EB5A62 /* moneyGame.png in Resources */ = {isa = PBXBuildFile; fileRef = D09692A81D4BEF6000EB5A62 /* moneyGame.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +62,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D049887C1D4BBD810051F413 /* gameImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = gameImages; sourceTree = "<group>"; };
+		D049887E1D4BBEC40051F413 /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = burger.png; path = gameImages/burger.png; sourceTree = "<group>"; };
+		D04988801D4BBEF60051F413 /* clothes-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clothes-1.png"; path = "gameImages/clothes-1.png"; sourceTree = "<group>"; };
+		D04988811D4BBEF60051F413 /* game title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "game title.png"; path = "gameImages/game title.png"; sourceTree = "<group>"; };
+		D04988821D4BBEF60051F413 /* GameButtons2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameButtons2.png; path = gameImages/GameButtons2.png; sourceTree = "<group>"; };
+		D04988831D4BBEF60051F413 /* getfood-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "getfood-1.png"; path = "gameImages/getfood-1.png"; sourceTree = "<group>"; };
+		D04988841D4BBEF60051F413 /* getmoney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = getmoney.png; path = gameImages/getmoney.png; sourceTree = "<group>"; };
+		D04988851D4BBEF60051F413 /* goback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goback.png; path = gameImages/goback.png; sourceTree = "<group>"; };
+		D04988861D4BBEF60051F413 /* howto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = howto.png; path = gameImages/howto.png; sourceTree = "<group>"; };
+		D04988871D4BBEF60051F413 /* mission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mission.png; path = gameImages/mission.png; sourceTree = "<group>"; };
+		D04988881D4BBEF60051F413 /* officiallogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = officiallogo.png; path = gameImages/officiallogo.png; sourceTree = "<group>"; };
+		D04988891D4BBEF60051F413 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pizza.png; path = gameImages/pizza.png; sourceTree = "<group>"; };
+		D049888A1D4BBEF60051F413 /* playnow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playnow.png; path = gameImages/playnow.png; sourceTree = "<group>"; };
+		D049888B1D4BBEF60051F413 /* Proposal-Homelessness.docx */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Proposal-Homelessness.docx"; path = "gameImages/Proposal-Homelessness.docx"; sourceTree = "<group>"; };
+		D049888C1D4BBEF60051F413 /* sadbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sadbackground.png; path = gameImages/sadbackground.png; sourceTree = "<group>"; };
+		D049888D1D4BBEF60051F413 /* sandwich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sandwich.png; path = gameImages/sandwich.png; sourceTree = "<group>"; };
+		D049888E1D4BBEF60051F413 /* sausage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sausage.png; path = gameImages/sausage.png; sourceTree = "<group>"; };
+		D049888F1D4BBEF60051F413 /* shelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shelf.png; path = gameImages/shelf.png; sourceTree = "<group>"; };
+		D04988901D4BBEF60051F413 /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tag.png; path = gameImages/tag.png; sourceTree = "<group>"; };
+		D04988911D4BBEF60051F413 /* watermelon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watermelon.png; path = gameImages/watermelon.png; sourceTree = "<group>"; };
+		D04988A61D4BC9350051F413 /* men.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = men.atlas; sourceTree = "<group>"; };
+		D04988A81D4BCB640051F413 /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFunction.swift; sourceTree = "<group>"; };
+		D04988AA1D4BD1C60051F413 /* moneygame_highDARKER.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneygame_highDARKER.png; sourceTree = "<group>"; };
 		D08B99AE1D491FB4003A31C2 /* FinalGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08B99B11D491FB4003A31C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D08B99B31D491FB4003A31C2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		D08B99B51D491FB4003A31C2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D08B99B51D491FB4003A31C2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = FinalGame/GameScene.swift; sourceTree = SOURCE_ROOT; };
 		D08B99B71D491FB4003A31C2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D08B99BA1D491FB4003A31C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D08B99BC1D491FB4003A31C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,27 +100,9 @@
 		D08B99D11D491FB4003A31C2 /* FinalGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08B99D51D491FB4003A31C2 /* FinalGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalGameUITests.swift; sourceTree = "<group>"; };
 		D08B99D71D491FB4003A31C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D08B99E71D494CC2003A31C2 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../../../background.png; sourceTree = "<group>"; };
-		D08B99EA1D4953DA003A31C2 /* playnow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playnow.png; path = ../../../../playnow.png; sourceTree = "<group>"; };
-		D08B99ED1D49543C003A31C2 /* goback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = goback.png; path = ../../../../goback.png; sourceTree = "<group>"; };
 		D08B99EF1D4957EB003A31C2 /* GWCfinalproject */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GWCfinalproject; path = ../../..; sourceTree = "<group>"; };
-		D08B99F11D4958BA003A31C2 /* howto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = howto.png; path = ../../../../../howto.png; sourceTree = "<group>"; };
 		D08B99F31D495904003A31C2 /* Desktop */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Desktop; path = ../../../../..; sourceTree = "<group>"; };
-		D08B99F51D496061003A31C2 /* pepe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pepe.jpg; path = ../../../../../Python/pepe.jpg; sourceTree = "<group>"; };
-		D08B99F91D496264003A31C2 /* getmoney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = getmoney.png; path = ../../../../../getmoney.png; sourceTree = "<group>"; };
-		D08B99FD1D497250003A31C2 /* clothes-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "clothes-1.png"; path = "../../../../../clothes-1.png"; sourceTree = "<group>"; };
-		D08B99FE1D497250003A31C2 /* getfood-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "getfood-1.png"; path = "../../../../../getfood-1.png"; sourceTree = "<group>"; };
-		D08B9A011D4A6F1D003A31C2 /* sadbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sadbackground.png; path = ../../../../../sadbackground.png; sourceTree = "<group>"; };
-		D08B9A031D4A756E003A31C2 /* shelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shelf.png; path = ../../../../../shelf.png; sourceTree = "<group>"; };
-		D08B9A051D4A7776003A31C2 /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = burger.png; path = ../../../../../burger.png; sourceTree = "<group>"; };
-		D08B9A061D4A7776003A31C2 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pizza.png; path = ../../../../../pizza.png; sourceTree = "<group>"; };
-		D08B9A071D4A7776003A31C2 /* sandwich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sandwich.png; path = ../../../../../sandwich.png; sourceTree = "<group>"; };
-		D08B9A081D4A7776003A31C2 /* sausage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sausage.png; path = ../../../../../sausage.png; sourceTree = "<group>"; };
-		D08B9A091D4A7776003A31C2 /* watermelon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watermelon.png; path = ../../../../../watermelon.png; sourceTree = "<group>"; };
-		D08B9A0F1D4AA2BD003A31C2 /* game title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "game title.png"; path = "../../../../../game title.png"; sourceTree = "<group>"; };
-		D08B9A101D4AA2BD003A31C2 /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tag.png; path = ../../../../../tag.png; sourceTree = "<group>"; };
-		D08B9A131D4AAFBB003A31C2 /* officiallogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = officiallogo.png; path = ../../../../../officiallogo.png; sourceTree = "<group>"; };
-		D08B9A151D4AB3A6003A31C2 /* mission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mission.png; path = ../../../../../mission.png; sourceTree = "<group>"; };
+		D09692A81D4BEF6000EB5A62 /* moneyGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moneyGame.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,9 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				D08B99EF1D4957EB003A31C2 /* GWCfinalproject */,
-				D08B99ED1D49543C003A31C2 /* goback.png */,
-				D08B99EA1D4953DA003A31C2 /* playnow.png */,
-				D08B99E71D494CC2003A31C2 /* background.png */,
 				D08B99B01D491FB4003A31C2 /* FinalGame */,
 				D08B99C91D491FB4003A31C2 /* FinalGameTests */,
 				D08B99D41D491FB4003A31C2 /* FinalGameUITests */,
@@ -147,30 +154,38 @@
 		D08B99B01D491FB4003A31C2 /* FinalGame */ = {
 			isa = PBXGroup;
 			children = (
+				D04988A61D4BC9350051F413 /* men.atlas */,
+				D049887C1D4BBD810051F413 /* gameImages */,
 				D08B99B11D491FB4003A31C2 /* AppDelegate.swift */,
 				D08B99B31D491FB4003A31C2 /* GameScene.sks */,
 				D08B99B51D491FB4003A31C2 /* GameScene.swift */,
 				D08B99B71D491FB4003A31C2 /* GameViewController.swift */,
-				D08B99F11D4958BA003A31C2 /* howto.png */,
+				D04988A81D4BCB640051F413 /* RandomFunction.swift */,
 				D08B99B91D491FB4003A31C2 /* Main.storyboard */,
-				D08B9A151D4AB3A6003A31C2 /* mission.png */,
-				D08B9A0F1D4AA2BD003A31C2 /* game title.png */,
-				D08B9A101D4AA2BD003A31C2 /* tag.png */,
-				D08B9A051D4A7776003A31C2 /* burger.png */,
-				D08B9A061D4A7776003A31C2 /* pizza.png */,
-				D08B9A071D4A7776003A31C2 /* sandwich.png */,
-				D08B9A081D4A7776003A31C2 /* sausage.png */,
-				D08B9A091D4A7776003A31C2 /* watermelon.png */,
-				D08B9A031D4A756E003A31C2 /* shelf.png */,
-				D08B9A011D4A6F1D003A31C2 /* sadbackground.png */,
-				D08B99FD1D497250003A31C2 /* clothes-1.png */,
-				D08B99FE1D497250003A31C2 /* getfood-1.png */,
-				D08B99F91D496264003A31C2 /* getmoney.png */,
+				D04988AA1D4BD1C60051F413 /* moneygame_highDARKER.png */,
+				D09692A81D4BEF6000EB5A62 /* moneyGame.png */,
+				D04988801D4BBEF60051F413 /* clothes-1.png */,
+				D049888A1D4BBEF60051F413 /* playnow.png */,
+				D04988851D4BBEF60051F413 /* goback.png */,
+				D049888C1D4BBEF60051F413 /* sadbackground.png */,
+				D04988811D4BBEF60051F413 /* game title.png */,
+				D04988821D4BBEF60051F413 /* GameButtons2.png */,
+				D04988831D4BBEF60051F413 /* getfood-1.png */,
+				D04988841D4BBEF60051F413 /* getmoney.png */,
+				D04988861D4BBEF60051F413 /* howto.png */,
+				D04988871D4BBEF60051F413 /* mission.png */,
+				D04988881D4BBEF60051F413 /* officiallogo.png */,
+				D04988891D4BBEF60051F413 /* pizza.png */,
+				D049888B1D4BBEF60051F413 /* Proposal-Homelessness.docx */,
+				D049888D1D4BBEF60051F413 /* sandwich.png */,
+				D049888E1D4BBEF60051F413 /* sausage.png */,
+				D049888F1D4BBEF60051F413 /* shelf.png */,
+				D04988901D4BBEF60051F413 /* tag.png */,
+				D04988911D4BBEF60051F413 /* watermelon.png */,
+				D049887E1D4BBEC40051F413 /* burger.png */,
 				D08B99F31D495904003A31C2 /* Desktop */,
 				D08B99BC1D491FB4003A31C2 /* Assets.xcassets */,
 				D08B99BE1D491FB4003A31C2 /* LaunchScreen.storyboard */,
-				D08B9A131D4AAFBB003A31C2 /* officiallogo.png */,
-				D08B99F51D496061003A31C2 /* pepe.jpg */,
 				D08B99C11D491FB4003A31C2 /* Info.plist */,
 			);
 			path = FinalGame;
@@ -298,31 +313,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08B9A0C1D4A7776003A31C2 /* sandwich.png in Resources */,
-				D08B9A161D4AB3A6003A31C2 /* mission.png in Resources */,
-				D08B9A141D4AAFBB003A31C2 /* officiallogo.png in Resources */,
+				D04988A71D4BC9350051F413 /* men.atlas in Resources */,
+				D049889D1D4BBEF60051F413 /* Proposal-Homelessness.docx in Resources */,
+				D04988921D4BBEF60051F413 /* clothes-1.png in Resources */,
+				D04988951D4BBEF60051F413 /* getfood-1.png in Resources */,
+				D049887F1D4BBEC40051F413 /* burger.png in Resources */,
+				D04988AB1D4BD1C60051F413 /* moneygame_highDARKER.png in Resources */,
+				D049889F1D4BBEF60051F413 /* sandwich.png in Resources */,
+				D04988A21D4BBEF60051F413 /* tag.png in Resources */,
 				D08B99B41D491FB4003A31C2 /* GameScene.sks in Resources */,
-				D08B99F21D4958BA003A31C2 /* howto.png in Resources */,
-				D08B9A0A1D4A7776003A31C2 /* burger.png in Resources */,
-				D08B99E81D494CC2003A31C2 /* background.png in Resources */,
+				D04988961D4BBEF60051F413 /* getmoney.png in Resources */,
+				D04988941D4BBEF60051F413 /* GameButtons2.png in Resources */,
+				D04988971D4BBEF60051F413 /* goback.png in Resources */,
+				D049889A1D4BBEF60051F413 /* officiallogo.png in Resources */,
 				D08B99C01D491FB4003A31C2 /* LaunchScreen.storyboard in Resources */,
-				D08B99EE1D49543C003A31C2 /* goback.png in Resources */,
-				D08B9A001D497250003A31C2 /* getfood-1.png in Resources */,
-				D08B9A021D4A6F1D003A31C2 /* sadbackground.png in Resources */,
-				D08B99EC1D4953DA003A31C2 /* playnow.png in Resources */,
-				D08B99FC1D496264003A31C2 /* getmoney.png in Resources */,
-				D08B99FF1D497250003A31C2 /* clothes-1.png in Resources */,
+				D04988A01D4BBEF60051F413 /* sausage.png in Resources */,
+				D04988991D4BBEF60051F413 /* mission.png in Resources */,
+				D09692A91D4BEF6000EB5A62 /* moneyGame.png in Resources */,
+				D04988981D4BBEF60051F413 /* howto.png in Resources */,
+				D049889C1D4BBEF60051F413 /* playnow.png in Resources */,
 				D08B99BD1D491FB4003A31C2 /* Assets.xcassets in Resources */,
-				D08B9A0E1D4A7776003A31C2 /* watermelon.png in Resources */,
+				D04988A31D4BBEF60051F413 /* watermelon.png in Resources */,
+				D049887D1D4BBD810051F413 /* gameImages in Resources */,
 				D08B99F41D495904003A31C2 /* Desktop in Resources */,
-				D08B9A111D4AA2BD003A31C2 /* game title.png in Resources */,
+				D04988931D4BBEF60051F413 /* game title.png in Resources */,
 				D08B99F01D4957EB003A31C2 /* GWCfinalproject in Resources */,
-				D08B9A0B1D4A7776003A31C2 /* pizza.png in Resources */,
-				D08B99F61D496061003A31C2 /* pepe.jpg in Resources */,
-				D08B9A041D4A756E003A31C2 /* shelf.png in Resources */,
-				D08B9A121D4AA2BD003A31C2 /* tag.png in Resources */,
+				D04988A11D4BBEF60051F413 /* shelf.png in Resources */,
+				D049889B1D4BBEF60051F413 /* pizza.png in Resources */,
+				D049889E1D4BBEF60051F413 /* sadbackground.png in Resources */,
 				D08B99BB1D491FB4003A31C2 /* Main.storyboard in Resources */,
-				D08B9A0D1D4A7776003A31C2 /* sausage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +368,7 @@
 			files = (
 				D08B99B61D491FB4003A31C2 /* GameScene.swift in Sources */,
 				D08B99B81D491FB4003A31C2 /* GameViewController.swift in Sources */,
+				D04988A91D4BCB640051F413 /* RandomFunction.swift in Sources */,
 				D08B99B21D491FB4003A31C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -576,6 +596,7 @@
 				D08B99DC1D491FB4003A31C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D08B99DD1D491FB4003A31C2 /* Build configuration list for PBXNativeTarget "FinalGameTests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +605,7 @@
 				D08B99DF1D491FB4003A31C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D08B99E01D491FB4003A31C2 /* Build configuration list for PBXNativeTarget "FinalGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +614,7 @@
 				D08B99E21D491FB4003A31C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BEA560EA54E14C144ECD62682B719C4013EA643F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BEA560EA54E14C144ECD62682B719C4013EA643F" : 0,
+    "BF52B7CD7939FCD64F57BF9A3D60E9335FAC2A4D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A1EB3B6A-DE9A-428B-8AFA-99127CDAF50E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BEA560EA54E14C144ECD62682B719C4013EA643F" : "2016_SIP_Facebook_BAY_Homelessness\/",
+    "BF52B7CD7939FCD64F57BF9A3D60E9335FAC2A4D" : "first_repository\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FinalGame",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GWC Final\/GWC Final\/FinalGame\/FinalGame.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GirlsFirst\/2016_SIP_Facebook_BAY_Homelessness.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BEA560EA54E14C144ECD62682B719C4013EA643F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/darya-ver\/first_repository.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF52B7CD7939FCD64F57BF9A3D60E9335FAC2A4D"
+    }
+  ]
+}

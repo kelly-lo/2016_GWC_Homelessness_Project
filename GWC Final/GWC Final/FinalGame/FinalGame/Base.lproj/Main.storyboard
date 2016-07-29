@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="sadbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="XD5-FI-Et2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="sadbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="XD5-FI-Et2">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="580"/>
                                 <color key="backgroundColor" red="0.30779131259999998" green="1" blue="0.96070955700000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -128,16 +128,16 @@
                                 <exclude reference="yEY-jD-Ck8"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="p0b-gK-zhb"/>
-                                <exclude reference="pT3-ht-QPK"/>
-                                <exclude reference="per-t3-jRP"/>
                                 <exclude reference="Zdy-16-PQc"/>
                                 <exclude reference="bMF-kz-bxU"/>
                                 <exclude reference="h8X-3d-RYU"/>
-                                <exclude reference="PFu-ZX-o7U"/>
                                 <exclude reference="1Mm-cB-JIm"/>
                                 <exclude reference="eeV-mC-bfB"/>
                                 <exclude reference="fin-bP-9cn"/>
+                                <exclude reference="p0b-gK-zhb"/>
+                                <exclude reference="pT3-ht-QPK"/>
+                                <exclude reference="per-t3-jRP"/>
+                                <exclude reference="PFu-ZX-o7U"/>
                                 <exclude reference="zJV-8D-ped"/>
                             </mask>
                         </variation>
@@ -147,16 +147,16 @@
                                 <include reference="yEY-jD-Ck8"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="p0b-gK-zhb"/>
-                                <include reference="pT3-ht-QPK"/>
-                                <include reference="per-t3-jRP"/>
                                 <include reference="Zdy-16-PQc"/>
                                 <include reference="bMF-kz-bxU"/>
                                 <include reference="h8X-3d-RYU"/>
-                                <include reference="PFu-ZX-o7U"/>
                                 <include reference="1Mm-cB-JIm"/>
                                 <include reference="eeV-mC-bfB"/>
                                 <include reference="fin-bP-9cn"/>
+                                <include reference="p0b-gK-zhb"/>
+                                <include reference="pT3-ht-QPK"/>
+                                <include reference="per-t3-jRP"/>
+                                <include reference="PFu-ZX-o7U"/>
                                 <include reference="zJV-8D-ped"/>
                             </mask>
                         </variation>
@@ -164,7 +164,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="304.5" y="399"/>
+            <point key="canvasLocation" x="220.5" y="415.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="koI-ng-TXW">
@@ -175,6 +175,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wDf-TK-atu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="dMQ-wz-bbd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sadbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Ys-rV-x7e">
@@ -324,20 +325,20 @@
                                 <exclude reference="gkZ-g2-WB8"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="MVz-pa-d0d"/>
-                                <exclude reference="eSl-ES-v5C"/>
-                                <exclude reference="iXG-wP-Ker"/>
-                                <exclude reference="FqJ-f7-qpd"/>
-                                <exclude reference="zFp-Ul-Y3d"/>
-                                <exclude reference="Bzs-Dp-kIR"/>
-                                <exclude reference="yO1-wp-Yn7"/>
-                                <exclude reference="DwD-nT-raJ"/>
-                                <exclude reference="qOW-Wa-M4s"/>
                                 <exclude reference="NLh-Oj-UHG"/>
                                 <exclude reference="aKz-zh-G6k"/>
+                                <exclude reference="Bzs-Dp-kIR"/>
+                                <exclude reference="yO1-wp-Yn7"/>
                                 <exclude reference="Nb9-Rl-9MK"/>
                                 <exclude reference="UBm-ym-LWx"/>
                                 <exclude reference="wWA-PK-LoS"/>
+                                <exclude reference="DwD-nT-raJ"/>
+                                <exclude reference="qOW-Wa-M4s"/>
+                                <exclude reference="FqJ-f7-qpd"/>
+                                <exclude reference="zFp-Ul-Y3d"/>
+                                <exclude reference="MVz-pa-d0d"/>
+                                <exclude reference="eSl-ES-v5C"/>
+                                <exclude reference="iXG-wP-Ker"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -350,20 +351,20 @@
                                 <include reference="gkZ-g2-WB8"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="MVz-pa-d0d"/>
-                                <include reference="eSl-ES-v5C"/>
-                                <include reference="iXG-wP-Ker"/>
-                                <include reference="FqJ-f7-qpd"/>
-                                <include reference="zFp-Ul-Y3d"/>
-                                <include reference="Bzs-Dp-kIR"/>
-                                <include reference="yO1-wp-Yn7"/>
-                                <include reference="DwD-nT-raJ"/>
-                                <include reference="qOW-Wa-M4s"/>
                                 <include reference="NLh-Oj-UHG"/>
                                 <include reference="aKz-zh-G6k"/>
+                                <include reference="Bzs-Dp-kIR"/>
+                                <include reference="yO1-wp-Yn7"/>
                                 <include reference="Nb9-Rl-9MK"/>
                                 <include reference="UBm-ym-LWx"/>
                                 <include reference="wWA-PK-LoS"/>
+                                <include reference="DwD-nT-raJ"/>
+                                <include reference="qOW-Wa-M4s"/>
+                                <include reference="FqJ-f7-qpd"/>
+                                <include reference="zFp-Ul-Y3d"/>
+                                <include reference="MVz-pa-d0d"/>
+                                <include reference="eSl-ES-v5C"/>
+                                <include reference="iXG-wP-Ker"/>
                             </mask>
                         </variation>
                     </view>
@@ -381,6 +382,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Bg3-H5-sNL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kGd-j9-l6Q">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sadbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="akI-RZ-Or4">
@@ -431,11 +433,11 @@
                                     <constraint firstAttribute="width" constant="351" id="5Nv-h3-Mlg"/>
                                     <constraint firstAttribute="height" constant="726" id="nGI-pb-EZl"/>
                                 </constraints>
-                                <mutableString key="text">Homelessness is a very big problem around the world, there are millions of people living in poverty in both first-world and third-world countries. More than half a million people in the United States alone are living on the streets. These people are more than just strangers. They may be a friend, a veteran, a child, or even a relative, so it’s more than fair to treat them like they actually belong in this world.
+                                <string key="text">Homelessness is a very big problem around the world, there are millions of people living in poverty in both first-world and third-world countries. More than half a million people in the United States alone are living on the streets. These people are more than just strangers. They may be a friend, a veteran, a child, or even a relative, so it’s more than fair to treat them like they actually belong in this world.
 We see them on the streets in our communities, but we are not taking action to lower the number and get them to a place they can call home. We don’t need to donate a huge amount of money to help out, by simply acknowledging them can make a huge difference to their lives. 
 With this interactive app we hope to get people to understand that being out in the streets, without food, without money, and without proper hygiene day to day isn’t something easy to deal with. We have to keep in mind at all times that the circumstances they’re in aren’t the best and hopefully this game gets that point across.   
 
-</mutableString>
+</string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -445,8 +447,7 @@ With this interactive app we hope to get people to understand that being out in 
                                         <exclude reference="nGI-pb-EZl"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="20" y="68" width="351" height="731"/>
+                                <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="5Nv-h3-Mlg"/>
                                         <include reference="nGI-pb-EZl"/>
@@ -471,13 +472,13 @@ With this interactive app we hope to get people to understand that being out in 
                                 <exclude reference="Rf7-UD-mUr"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="Fex-Sk-PSG"/>
-                                <exclude reference="Y6C-d3-Tch"/>
-                                <exclude reference="Y9Z-6k-wJ6"/>
                                 <exclude reference="Avn-VX-t84"/>
                                 <exclude reference="DKe-wM-udP"/>
                                 <exclude reference="adp-px-6Zg"/>
                                 <exclude reference="aiT-5H-EWe"/>
+                                <exclude reference="Fex-Sk-PSG"/>
+                                <exclude reference="Y6C-d3-Tch"/>
+                                <exclude reference="Y9Z-6k-wJ6"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -487,13 +488,13 @@ With this interactive app we hope to get people to understand that being out in 
                                 <include reference="Rf7-UD-mUr"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Fex-Sk-PSG"/>
-                                <include reference="Y6C-d3-Tch"/>
-                                <include reference="Y9Z-6k-wJ6"/>
                                 <include reference="Avn-VX-t84"/>
                                 <include reference="DKe-wM-udP"/>
                                 <include reference="adp-px-6Zg"/>
                                 <include reference="aiT-5H-EWe"/>
+                                <include reference="Fex-Sk-PSG"/>
+                                <include reference="Y6C-d3-Tch"/>
+                                <include reference="Y9Z-6k-wJ6"/>
                             </mask>
                         </variation>
                     </view>
@@ -511,6 +512,7 @@ With this interactive app we hope to get people to understand that being out in 
                         <viewControllerLayoutGuide type="bottom" id="PQz-7h-yc9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Bhv-xl-jUC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzS-8Q-9a5" userLabel="Back">
@@ -550,14 +552,14 @@ With this interactive app we hope to get people to understand that being out in 
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="JfA-AX-qR1"/>
                                         <exclude reference="5zK-KX-7M3"/>
+                                        <exclude reference="JfA-AX-qR1"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="JfA-AX-qR1"/>
                                         <include reference="5zK-KX-7M3"/>
+                                        <include reference="JfA-AX-qR1"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -795,14 +797,14 @@ With this interactive app we hope to get people to understand that being out in 
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="NjV-s4-TJy"/>
                                         <exclude reference="Gzf-0p-4aX"/>
+                                        <exclude reference="NjV-s4-TJy"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="NjV-s4-TJy"/>
                                         <include reference="Gzf-0p-4aX"/>
+                                        <include reference="NjV-s4-TJy"/>
                                     </mask>
                                 </variation>
                             </imageView>
@@ -813,7 +815,7 @@ With this interactive app we hope to get people to understand that being out in 
                                     <constraint firstAttribute="width" constant="42" id="pgn-Hy-KUp"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -828,28 +830,6 @@ With this interactive app we hope to get people to understand that being out in 
                                     </mask>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJe-Za-oxX">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="fx6-bf-M4u"/>
-                                    <constraint firstAttribute="width" constant="29" id="wiM-rN-Bgc"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="fx6-bf-M4u"/>
-                                        <exclude reference="wiM-rN-Bgc"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="fx6-bf-M4u"/>
-                                        <include reference="wiM-rN-Bgc"/>
-                                    </mask>
-                                </variation>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaB-c0-qF7">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <constraints>
@@ -857,7 +837,7 @@ With this interactive app we hope to get people to understand that being out in 
                                     <constraint firstAttribute="height" constant="21" id="oIL-pL-50l"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -879,7 +859,7 @@ With this interactive app we hope to get people to understand that being out in 
                                     <constraint firstAttribute="height" constant="21" id="t21-sp-KcH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -901,7 +881,7 @@ With this interactive app we hope to get people to understand that being out in 
                                     <constraint firstAttribute="width" constant="31" id="vjH-KJ-8gN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -913,6 +893,28 @@ With this interactive app we hope to get people to understand that being out in 
                                     <mask key="constraints">
                                         <include reference="0Bo-aF-Ym1"/>
                                         <include reference="vjH-KJ-8gN"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJe-Za-oxX">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="fx6-bf-M4u"/>
+                                    <constraint firstAttribute="width" constant="29" id="wiM-rN-Bgc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="fx6-bf-M4u"/>
+                                        <exclude reference="wiM-rN-Bgc"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="fx6-bf-M4u"/>
+                                        <include reference="wiM-rN-Bgc"/>
                                     </mask>
                                 </variation>
                             </label>
@@ -982,56 +984,56 @@ With this interactive app we hope to get people to understand that being out in 
                                 <exclude reference="71k-l9-S9O"/>
                                 <exclude reference="Qgb-Jc-0vS"/>
                                 <exclude reference="ee6-kY-HcX"/>
-                                <exclude reference="hJe-Za-oxX"/>
                                 <exclude reference="zaB-c0-qF7"/>
                                 <exclude reference="kIY-hw-C4B"/>
                                 <exclude reference="zPD-ei-BO6"/>
+                                <exclude reference="hJe-Za-oxX"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="K3n-El-hFe"/>
-                                <exclude reference="v6q-8c-Jbi"/>
+                                <exclude reference="bDF-Ot-uFB"/>
                                 <exclude reference="JdU-wl-P2x"/>
-                                <exclude reference="9rl-zD-8YY"/>
-                                <exclude reference="ym8-Dd-ogS"/>
-                                <exclude reference="WhM-cb-xpW"/>
-                                <exclude reference="ipW-PH-qIH"/>
-                                <exclude reference="9Sc-A5-np4"/>
-                                <exclude reference="gdX-eg-unc"/>
-                                <exclude reference="O0G-dJ-Z4J"/>
-                                <exclude reference="mG0-fG-pPW"/>
+                                <exclude reference="52H-wH-fFi"/>
+                                <exclude reference="aIs-Il-mxT"/>
                                 <exclude reference="f7y-3C-D1p"/>
                                 <exclude reference="k5Q-Ir-YvI"/>
                                 <exclude reference="sdT-bH-DHD"/>
-                                <exclude reference="Bpm-UG-uAX"/>
-                                <exclude reference="Qw1-Fa-1yg"/>
                                 <exclude reference="2Dw-Wc-w3R"/>
                                 <exclude reference="503-KN-Md6"/>
-                                <exclude reference="N3D-Ii-v11"/>
-                                <exclude reference="vIy-X6-jvP"/>
                                 <exclude reference="Hva-iP-nHF"/>
                                 <exclude reference="maG-6P-nuT"/>
                                 <exclude reference="nem-jX-Ww3"/>
-                                <exclude reference="f6j-SZ-Hae"/>
-                                <exclude reference="in2-Wl-zMb"/>
-                                <exclude reference="UMm-BE-nKV"/>
-                                <exclude reference="qVO-ZK-13d"/>
-                                <exclude reference="6SX-rB-iK2"/>
-                                <exclude reference="GGc-Ea-iil"/>
-                                <exclude reference="6Oc-Ez-OhB"/>
-                                <exclude reference="F8p-vj-c6G"/>
+                                <exclude reference="K3n-El-hFe"/>
+                                <exclude reference="v6q-8c-Jbi"/>
+                                <exclude reference="9rl-zD-8YY"/>
+                                <exclude reference="ym8-Dd-ogS"/>
+                                <exclude reference="O0G-dJ-Z4J"/>
+                                <exclude reference="mG0-fG-pPW"/>
+                                <exclude reference="N3D-Ii-v11"/>
+                                <exclude reference="vIy-X6-jvP"/>
                                 <exclude reference="S6T-Hw-bX8"/>
                                 <exclude reference="rNf-Wp-nvS"/>
-                                <exclude reference="52H-wH-fFi"/>
-                                <exclude reference="aIs-Il-mxT"/>
-                                <exclude reference="7BC-0p-Voe"/>
-                                <exclude reference="R7l-yh-DWP"/>
-                                <exclude reference="q1c-Ez-Na2"/>
+                                <exclude reference="fAM-Aj-W2K"/>
+                                <exclude reference="n5v-Y8-Qky"/>
+                                <exclude reference="6SX-rB-iK2"/>
+                                <exclude reference="GGc-Ea-iil"/>
+                                <exclude reference="f6j-SZ-Hae"/>
+                                <exclude reference="in2-Wl-zMb"/>
+                                <exclude reference="Bpm-UG-uAX"/>
+                                <exclude reference="Qw1-Fa-1yg"/>
+                                <exclude reference="WhM-cb-xpW"/>
+                                <exclude reference="ipW-PH-qIH"/>
                                 <exclude reference="HT0-WF-lMo"/>
                                 <exclude reference="kKB-6V-2Bm"/>
                                 <exclude reference="oi4-mU-IfL"/>
-                                <exclude reference="fAM-Aj-W2K"/>
-                                <exclude reference="n5v-Y8-Qky"/>
-                                <exclude reference="bDF-Ot-uFB"/>
+                                <exclude reference="9Sc-A5-np4"/>
+                                <exclude reference="gdX-eg-unc"/>
+                                <exclude reference="7BC-0p-Voe"/>
+                                <exclude reference="R7l-yh-DWP"/>
+                                <exclude reference="q1c-Ez-Na2"/>
+                                <exclude reference="UMm-BE-nKV"/>
+                                <exclude reference="qVO-ZK-13d"/>
+                                <exclude reference="6Oc-Ez-OhB"/>
+                                <exclude reference="F8p-vj-c6G"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -1052,56 +1054,56 @@ With this interactive app we hope to get people to understand that being out in 
                                 <include reference="71k-l9-S9O"/>
                                 <include reference="Qgb-Jc-0vS"/>
                                 <include reference="ee6-kY-HcX"/>
-                                <include reference="hJe-Za-oxX"/>
                                 <include reference="zaB-c0-qF7"/>
                                 <include reference="kIY-hw-C4B"/>
                                 <include reference="zPD-ei-BO6"/>
+                                <include reference="hJe-Za-oxX"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="K3n-El-hFe"/>
-                                <include reference="v6q-8c-Jbi"/>
+                                <include reference="bDF-Ot-uFB"/>
                                 <include reference="JdU-wl-P2x"/>
-                                <include reference="9rl-zD-8YY"/>
-                                <include reference="ym8-Dd-ogS"/>
-                                <include reference="WhM-cb-xpW"/>
-                                <include reference="ipW-PH-qIH"/>
-                                <include reference="9Sc-A5-np4"/>
-                                <include reference="gdX-eg-unc"/>
-                                <include reference="O0G-dJ-Z4J"/>
-                                <include reference="mG0-fG-pPW"/>
+                                <include reference="52H-wH-fFi"/>
+                                <include reference="aIs-Il-mxT"/>
                                 <include reference="f7y-3C-D1p"/>
                                 <include reference="k5Q-Ir-YvI"/>
                                 <include reference="sdT-bH-DHD"/>
-                                <include reference="Bpm-UG-uAX"/>
-                                <include reference="Qw1-Fa-1yg"/>
                                 <include reference="2Dw-Wc-w3R"/>
                                 <include reference="503-KN-Md6"/>
-                                <include reference="N3D-Ii-v11"/>
-                                <include reference="vIy-X6-jvP"/>
                                 <include reference="Hva-iP-nHF"/>
                                 <include reference="maG-6P-nuT"/>
                                 <include reference="nem-jX-Ww3"/>
-                                <include reference="f6j-SZ-Hae"/>
-                                <include reference="in2-Wl-zMb"/>
-                                <include reference="UMm-BE-nKV"/>
-                                <include reference="qVO-ZK-13d"/>
-                                <include reference="6SX-rB-iK2"/>
-                                <include reference="GGc-Ea-iil"/>
-                                <include reference="6Oc-Ez-OhB"/>
-                                <include reference="F8p-vj-c6G"/>
+                                <include reference="K3n-El-hFe"/>
+                                <include reference="v6q-8c-Jbi"/>
+                                <include reference="9rl-zD-8YY"/>
+                                <include reference="ym8-Dd-ogS"/>
+                                <include reference="O0G-dJ-Z4J"/>
+                                <include reference="mG0-fG-pPW"/>
+                                <include reference="N3D-Ii-v11"/>
+                                <include reference="vIy-X6-jvP"/>
                                 <include reference="S6T-Hw-bX8"/>
                                 <include reference="rNf-Wp-nvS"/>
-                                <include reference="52H-wH-fFi"/>
-                                <include reference="aIs-Il-mxT"/>
-                                <include reference="7BC-0p-Voe"/>
-                                <include reference="R7l-yh-DWP"/>
-                                <include reference="q1c-Ez-Na2"/>
+                                <include reference="fAM-Aj-W2K"/>
+                                <include reference="n5v-Y8-Qky"/>
+                                <include reference="6SX-rB-iK2"/>
+                                <include reference="GGc-Ea-iil"/>
+                                <include reference="f6j-SZ-Hae"/>
+                                <include reference="in2-Wl-zMb"/>
+                                <include reference="Bpm-UG-uAX"/>
+                                <include reference="Qw1-Fa-1yg"/>
+                                <include reference="WhM-cb-xpW"/>
+                                <include reference="ipW-PH-qIH"/>
                                 <include reference="HT0-WF-lMo"/>
                                 <include reference="kKB-6V-2Bm"/>
                                 <include reference="oi4-mU-IfL"/>
-                                <include reference="fAM-Aj-W2K"/>
-                                <include reference="n5v-Y8-Qky"/>
-                                <include reference="bDF-Ot-uFB"/>
+                                <include reference="9Sc-A5-np4"/>
+                                <include reference="gdX-eg-unc"/>
+                                <include reference="7BC-0p-Voe"/>
+                                <include reference="R7l-yh-DWP"/>
+                                <include reference="q1c-Ez-Na2"/>
+                                <include reference="UMm-BE-nKV"/>
+                                <include reference="qVO-ZK-13d"/>
+                                <include reference="6Oc-Ez-OhB"/>
+                                <include reference="F8p-vj-c6G"/>
                             </mask>
                         </variation>
                     </view>
@@ -1119,8 +1121,28 @@ With this interactive app we hope to get people to understand that being out in 
                         <viewControllerLayoutGuide type="bottom" id="cGc-Jv-dXN"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="yOZ-mb-FsA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moneygame_highDARKER.png" translatesAutoresizingMaskIntoConstraints="NO" id="YL5-2A-XoO">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="1V5-Bd-ysG"/>
+                                    <constraint firstAttribute="height" constant="800" id="nh1-Va-J0W"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1V5-Bd-ysG"/>
+                                        <exclude reference="nh1-Va-J0W"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="1V5-Bd-ysG"/>
+                                        <include reference="nh1-Va-J0W"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNx-e1-a8b">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <constraints>
@@ -1147,25 +1169,39 @@ With this interactive app we hope to get people to understand that being out in 
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="YL5-2A-XoO" secondAttribute="trailing" id="4Gx-i1-Wl3"/>
+                            <constraint firstItem="YL5-2A-XoO" firstAttribute="leading" secondItem="yOZ-mb-FsA" secondAttribute="leading" id="F5Y-u8-JDe"/>
                             <constraint firstItem="sNx-e1-a8b" firstAttribute="top" secondItem="yOZ-mb-FsA" secondAttribute="top" constant="20" id="FS1-Ud-5eN"/>
+                            <constraint firstAttribute="bottom" secondItem="YL5-2A-XoO" secondAttribute="bottom" id="K1N-Ru-fdH"/>
                             <constraint firstItem="sNx-e1-a8b" firstAttribute="leading" secondItem="yOZ-mb-FsA" secondAttribute="leading" constant="20" id="seq-0z-wPh"/>
+                            <constraint firstItem="YL5-2A-XoO" firstAttribute="top" secondItem="yOZ-mb-FsA" secondAttribute="top" id="u2R-YB-o75"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="YL5-2A-XoO"/>
                                 <exclude reference="sNx-e1-a8b"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="FS1-Ud-5eN"/>
                                 <exclude reference="seq-0z-wPh"/>
+                                <exclude reference="4Gx-i1-Wl3"/>
+                                <exclude reference="F5Y-u8-JDe"/>
+                                <exclude reference="K1N-Ru-fdH"/>
+                                <exclude reference="u2R-YB-o75"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
+                                <include reference="YL5-2A-XoO"/>
                                 <include reference="sNx-e1-a8b"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="FS1-Ud-5eN"/>
                                 <include reference="seq-0z-wPh"/>
+                                <include reference="4Gx-i1-Wl3"/>
+                                <include reference="F5Y-u8-JDe"/>
+                                <include reference="K1N-Ru-fdH"/>
+                                <include reference="u2R-YB-o75"/>
                             </mask>
                         </variation>
                     </view>
@@ -1183,6 +1219,7 @@ With this interactive app we hope to get people to understand that being out in 
                         <viewControllerLayoutGuide type="bottom" id="IaW-re-C6y"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="R9d-KG-Yzp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sadbackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="cVQ-dW-qdY">
@@ -1207,7 +1244,7 @@ With this interactive app we hope to get people to understand that being out in 
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instructions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Shy-zj-Pbd">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adl-cV-YMN">
@@ -1304,17 +1341,17 @@ With this interactive app we hope to get people to understand that being out in 
                                 <exclude reference="8Ta-aE-CZr"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="dr8-IF-E5r"/>
-                                <exclude reference="lDK-G6-MoE"/>
-                                <exclude reference="pBO-Nh-Mj1"/>
                                 <exclude reference="Pkb-DD-NMM"/>
                                 <exclude reference="azK-YV-omf"/>
                                 <exclude reference="Tb4-wE-5sV"/>
                                 <exclude reference="p2w-u5-ba2"/>
-                                <exclude reference="UbJ-3N-eD2"/>
-                                <exclude reference="jUo-M0-LWW"/>
                                 <exclude reference="8ED-XQ-PMN"/>
                                 <exclude reference="aYY-8n-pjU"/>
+                                <exclude reference="UbJ-3N-eD2"/>
+                                <exclude reference="jUo-M0-LWW"/>
+                                <exclude reference="dr8-IF-E5r"/>
+                                <exclude reference="lDK-G6-MoE"/>
+                                <exclude reference="pBO-Nh-Mj1"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -1326,17 +1363,17 @@ With this interactive app we hope to get people to understand that being out in 
                                 <include reference="8Ta-aE-CZr"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="dr8-IF-E5r"/>
-                                <include reference="lDK-G6-MoE"/>
-                                <include reference="pBO-Nh-Mj1"/>
                                 <include reference="Pkb-DD-NMM"/>
                                 <include reference="azK-YV-omf"/>
                                 <include reference="Tb4-wE-5sV"/>
                                 <include reference="p2w-u5-ba2"/>
-                                <include reference="UbJ-3N-eD2"/>
-                                <include reference="jUo-M0-LWW"/>
                                 <include reference="8ED-XQ-PMN"/>
                                 <include reference="aYY-8n-pjU"/>
+                                <include reference="UbJ-3N-eD2"/>
+                                <include reference="jUo-M0-LWW"/>
+                                <include reference="dr8-IF-E5r"/>
+                                <include reference="lDK-G6-MoE"/>
+                                <include reference="pBO-Nh-Mj1"/>
                             </mask>
                         </variation>
                     </view>
@@ -1348,14 +1385,15 @@ With this interactive app we hope to get people to understand that being out in 
     </scenes>
     <resources>
         <image name="burger.png" width="1280" height="661"/>
-        <image name="game title.png" width="1646" height="1596"/>
-        <image name="getfood-1.png" width="365" height="348"/>
-        <image name="getmoney.png" width="527" height="473"/>
-        <image name="goback.png" width="548" height="216"/>
-        <image name="howto.png" width="521" height="216"/>
-        <image name="mission.png" width="1961" height="776"/>
+        <image name="game title.png" width="3300" height="2550"/>
+        <image name="getfood-1.png" width="3300" height="2550"/>
+        <image name="getmoney.png" width="3300" height="2550"/>
+        <image name="goback.png" width="3300" height="2550"/>
+        <image name="howto.png" width="3300" height="2550"/>
+        <image name="mission.png" width="3300" height="2550"/>
+        <image name="moneygame_highDARKER.png" width="2550" height="3300"/>
         <image name="pizza.png" width="1280" height="848"/>
-        <image name="playnow.png" width="556" height="231"/>
+        <image name="playnow.png" width="3300" height="2550"/>
         <image name="sadbackground.png" width="2550" height="3300"/>
         <image name="sandwich.png" width="1280" height="1139"/>
         <image name="sausage.png" width="1280" height="1030"/>
@@ -1364,7 +1402,7 @@ With this interactive app we hope to get people to understand that being out in 
         <image name="watermelon.png" width="1280" height="774"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="hD9-9g-Pdd"/>
         <segue reference="1fm-6o-lLz"/>
-        <segue reference="pZk-Nq-cJ6"/>
     </inferredMetricsTieBreakers>
 </document>
